@@ -1,0 +1,27 @@
+<!-- write a js program to implement different event available inside js program -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onchange</title>
+</head>
+<body>
+    <h1>Welcome to my page</h1>
+    <p>Select fruits from the list</p>
+    <select id="fruit" onchange="myfunction()">
+    <option value="orange">Orange</option>
+    <option value="apple">Apple</option>
+    <option value="banana">Banana</option>
+    </select>
+    <p id="demo"></p>
+
+    <script>
+        function myfunction() {
+            var x=document.getElementById("fruit").value;
+            document.getElementById("demo").innerHTML="Your choosed fruit is: " + x;
+        }
+    </script>
+</body>
+
+</html>

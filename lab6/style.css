@@ -1,0 +1,27 @@
+/* 
+ . -> this is for class
+ # -> this for id
+
+*/
+
+.para{
+    font-size: 30px;
+    background-color: green;
+
+}
+
+#head{
+    font-size: 50px;
+    border: 2px dashed black;
+}
+
+b{
+    color: blue;
+    border: 3px dotted red;
+}
+
+img{
+    height: 400px;
+    width: 500px;
+}
+

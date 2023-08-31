@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query Example</title>
+    <style>
+        body {
+            /* Default background color (for viewport width less than 500px) */
+            background-color: green;
+        }
+
+        @media (min-width: 500px) and (max-width: 799px) {
+            /* Change background color to yellow for viewport width between 500px and 799px */
+            body {
+                background-color: yellow;
+            }
+        }
+
+        @media (min-width: 800px) and (max-width: 1200px) {
+            /* Change background color to red for viewport width between 800px and 1200px */
+            body {
+                background-color: red;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Your content goes here -->
+    <h1>Media Query Example</h1>
+</body>
+</html>

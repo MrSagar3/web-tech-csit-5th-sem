@@ -1,0 +1,59 @@
+<!-- 
+
+    Media query: 
+    Write a HTML script containing use of media query for changing the background-color of html page to red if the viewport is between 800 pixels to 1200 pixels, changing the background color of html page to yellow if the viewport is between 799 pixels to 500 pixels otherwise if the viewport is less than 499 pixels then the background-color should be changed to green.
+
+  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+    <style>
+        .box{
+            text-align: center;
+            font-size: 50px;
+            display: none;
+            
+        }
+        @media(max-width:1800px) and (min-width:300px)
+        {
+            #box1{
+                display: block;
+                background-color: #154360 ;
+            }
+        }
+        @media(max-width:799px) and (min-width:400px)
+    {
+        #box2{
+            display: block;
+            background-color: #1A5276 ;
+        }
+    }
+    @media(max-width:599px) and (min-width:300px)
+    {
+        #box3{
+            display: block;
+            background-color: #1F618D ;
+        }
+    }
+    @media(max-width:699px) and (min-width:500px)
+    {
+        #box4{
+            display: block;
+            background-color: #2471A3 ;
+        }
+    }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box" id="box1">Iphone</div>
+        <div class="box" id="box2">Samsung</div>
+        <div class="box" id="box3">Oppo</div>
+        <div class="box" id="box4">Nokia</div>
+    </div>
+</body>
+</html>

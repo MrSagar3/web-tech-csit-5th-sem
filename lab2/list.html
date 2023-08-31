@@ -1,0 +1,53 @@
+<!-- write a html program to display following output
+    Welcome to my page
+    1. Fruit Name
+        a. Mango
+        b. Orange
+            i. Orange is sour in taste.
+            ii. It is good for health.
+        
+    2. Vegetable Name
+        X. Brocoli
+            d. Brocoli is vegetable.
+
+        XI. Cauliflower
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List</title>
+</head>
+<body>
+    <h1>Welcome to my page</h1>
+    <ol type="1">
+        <li>Fruits Name
+            <ol type="a">
+                <li>Mango</li>
+                <li>Orange
+                    <ol type="i">
+                        <li>Orange is sour in taste.</li>
+                        <li>Orange is good for health.</li>
+                    </ol>
+                </li>
+            </ol>
+        </li>
+        <li>Vegetable Name
+            <ol type="I" start="10">
+                <li>Brocoli
+                    <ol type="a" start="4">
+                        <li>Brocoli is vegetable.</li>
+                        
+                    </ol>
+                </li>
+                <li>Cauliflower</li>   
+               
+            </ol>
+        </li>
+
+    </ol>
+</body>
+</html>

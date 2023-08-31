@@ -1,0 +1,73 @@
+<!-- 
+    Develop and demonstrate the uses of inline, internal and external CSS.
+ -->
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline,internal and external CSS</title>
+    <!-- This is for the internal CSS -->
+    <style>
+        table, tr, th, td{
+            border: 2px solid red;
+            border-collapse: collapse;
+        }
+    </style>
+
+    <!-- This is for the external CSS  -->
+    <link rel="stylesheet" href="css/style.css">
+
+ </head>
+ <body>
+    <h1 style="text-align: center; font-family: Verdana, Geneva, Tahoma, sans-serif; color: brown;">Inline, internal and External CSS</h1>
+    <h1 style="color: red;">This is an example of inline CSS</h1>
+    <p style="font-size: 20px; color: green; border: 2px solid blue;">
+        Web Technology refers to the various tools and techniques that are utilized in the process of communication between different types of devices over the Internet. A web browser is used to access web pages. Web browsers can be defined as programs that display text, data, pictures, animation, and video on the Internet. Hyperlinked resources on the World Wide Web can be accessed using software interfaces provided by Web browsers.
+    </p>
+    <h1>This is an example of internal CSS</h1>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Roll No.</th>
+            <th>Gender</th>
+        </tr>
+        <tr>
+            <td>Sagar</td>
+            <td>Sanepa</td>
+            <td>Male</td>
+        </tr>
+        <tr>
+            <td>Prabisha</td>
+            <td>Godawari</td>
+            <td>Female</td>
+        </tr>
+        <tr>
+            <td>Bishal</td>
+            <td>Godawari</td>
+            <td>Male</td>
+        </tr>
+        <tr>
+            <td>Nischal</td>
+            <td>Koteshwor</td>
+            <td>Male</td>
+        </tr>
+    </table>
+
+    <h1>This is an example of external CSS</h1>
+    <h2>Registration Form</h2>
+        <form action="#" method="get">
+            Name: <input type="text" placeholder="Enter your name"><br>
+            Gender: 
+            Male<input type="radio">
+            Female<input type="radio">
+            Other<input type="radio"> <br>
+            Email:<input type="email"> <br>
+            Write something about you: <br>
+            <textarea cols="30" rows="5"></textarea><br>
+            <input type="submit" value="Submit"><br>
+    <input type="reset" value="Reset">
+        </form>
+ </body>
+ </html>
