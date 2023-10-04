@@ -1,0 +1,19 @@
+<!-- lab13
+write an xml DTD to describe person as a root element and name ,address,phone number ,gender and age as a child element  -->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT person[
+<!ELEMENT person(name,address,phonenumber,gender,age)>
+<!ELEMENT name(#PCDATA)>
+<!ELEMENT address(#PCDATA)>
+<!ELEMENT phonenumber(#PCDATA)>
+<!ELEMENT gender(#PCDATA)>
+<!ELEMENT age(#PCDATA)>
+]>
+<person>
+<name>Elon</name>
+<address>Nepal</address>
+<phonenumber>1234567890</phonenumber>
+<gender>Male</gender>
+<age>21</age>
+</person>

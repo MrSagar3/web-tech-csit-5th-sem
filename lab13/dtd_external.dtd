@@ -1,0 +1,9 @@
+<!ELEMENT person[
+<!ELEMENT person(name,address,phonenumber,gender,age)>
+<!ELEMENT name(#PCDATA)>
+<!ELEMENT address(#PCDATA)>
+<!ELEMENT phonenumber(#PCDATA)>
+<!ELEMENT gender(#PCDATA)>
+<!ELEMENT age(#PCDATA)>
+]>
+

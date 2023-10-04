@@ -1,0 +1,11 @@
+<!-- lab12
+write a xml scripts to resolve name conflict that occur inside xml elements
+ -->
+
+<table>
+<tr> 
+<td>Apple</td>
+<td>Banana</td>
+</tr>
+</table>
+

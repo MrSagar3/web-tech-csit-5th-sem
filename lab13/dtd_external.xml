@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE person SYSTEM "dtd_external.dtd">
+<person>
+<name>Elon</name>
+<address>Nepal</address>
+<phonenumber>1234567890</phonenumber>
+<gender>Male</gender>
+<age>21</age>
+</person>
+
+
+
+

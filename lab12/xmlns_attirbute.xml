@@ -1,0 +1,16 @@
+<root>
+<h:table xmlns:h="http://www.w3.org/TR/html4/">
+<h:tr>
+<h:td>
+Apple</h:td>
+<h:td>Banana</h:td>
+</h:tr>
+</h:table>
+
+<f:table xmlns:f="http://www.w3schools.com/furniture">
+<f:name>Tokala Tea Table</f:name>
+<f:width>60
+</f:width>
+<f:length>40</f:length>
+</f:table>
+</root>
