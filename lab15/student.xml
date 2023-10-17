@@ -1,0 +1,20 @@
+<!-- write a xml program to implement stylesheet(XSL). -->
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="student.xsl"?>
+<class>
+<student>
+<firstname>Elon</firstname>
+<lastname>Musk</lastname>
+<semester>5th</semester>
+</student>
+<student>
+<firstname>Mark</firstname>
+<lastname>Zuckerborg</lastname>
+<semester>5th</semester>
+</student>
+<student>
+<firstname>Jeff</firstname>
+<lastname>Bejos</lastname>
+<semester>5th</semester>
+</student>
+</class>
